@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurante-La Buena Mesa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+body {
+    background-image: url(https://thumbs.dreamstime.com/b/muestra-reservada-reserva-en-la-tabla-color-oro-51589494.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: black;
+    margin: 0;
+        }
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+img {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav{
+    background: aqua;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 20px; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; 
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: hsl(153, 91%, 72%);
+}
+
+.logo{
+    height: 60px;
+}
+
+.enlace {
+    font-size: 60px;
+}
+
+.contenedor{
+    background-color: #75d6f0;
+    font-family: 'Times New Roman', Times, serif;
+    height: auto;
+    margin:5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.pepe{
+    position: fixed;
+    top: 10px;
+    left:10px;
+    font-size: 30px;
+}
+.pepe {
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: #007bff;
+        color: #ffffff; 
+    text-decoration: none; 
+        border-radius: 5px; 
+    border: none; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+  }
+  .toro{
+    font-size: 30px;
+    color: black;
+}
+.main-container {
+            width: 80%;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            background-color: rgba(255, 255, 255, 0.8);
+            overflow: hidden;
+}
+.po {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 0;
+        }
+.table-container {
+    float: left;
+    width: 50%;
+    padding: 20px;
+        }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+        }
+
+th, td {
+    padding: 15px;
+    text-align: left;
+        }
+
+th {
+    background-color: #790e17;
+    color: white;
+        }
+
+.form-container {
+    float: right;
+    width: 50%;
+    padding: 20px;
+        }
+form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
+        }        
+label {
+    display: block;
+    margin-bottom: 10px;
+        }        
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+        }
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+        }
+
+    .footer {
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+        }
+
+</style>
+<body class="pepa">
+    <nav>
+        <a href="#" class="enlace">
+            <img src="imagen1.png" alt="" class="logo">
+        </a>
+        <ul class="enlace">
+            <li><a href="Index.html">INICIO</a></li>
+            <li><a href="BLANCO_COCOM_A8_2.HTML">MENU</a></li>
+            <li><a href="BLANCO_COCOM_A8_3.HTML">RESERVAS</a></li>
+            <li><a href="BLANCO_COCOM_A8_4.HTML">INSTALACIONES</a></li>
+            <li><a href="BLANCO_COCOM_A8_5.HTML">NOSOTROS</a></li>
+            <li><a href="BLANCO_COCOM_A8_6.HTML">OPINIONES</a></li>
+            <li><a href="BLANCO_COCOM_A8_7.HTML">CERTIFICADO</a></li>
+        </ul>
+    </nav>
+
+    <div id="header">
+        <h1>Restaurante-La Buena Mesa</h1>
+        <center><h1>Comida tradicional yucateca</h1></center>
+        <center><img src="https://th.bing.com/th/id/R.f320330da9a2b0be82939917854cf297?rik=yExygYpgUiI4Pw&riu=http%3a%2f%2fwww.ydondecomemos.com%2fwp-content%2fuploads%2f2017%2f05%2fRestaurantes-mexicanos-Madrid-Taqueria-de-los-Batos.jpg&ehk=2vKQ%2bOJU1h0AhWz1DboRBLpc0BRtlv5LogvLJBY0uNU%3d&risl=&pid=ImgRaw&r=0" alt="Logo del Restaurante" width="500px"></center>
+    </div>
+
+<div class="main-container">
+            <h1 class="po">Reservas</h1>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Mesa</th>
+                            <th>Capacidad</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>4 personas</td>
+                            <td>Disponible</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>4 personas</td>
+                            <td>Disponible</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>8 personas</td>
+                            <td>Disponible</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>8 personas</td>
+                            <td>Disponible</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>6 personas</td>
+                            <td>Disponible</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>6 personas</td>
+                            <td>Disponible</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>10 personas</td>
+                            <td>Disponible</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>10 personas</td>
+                            <td>Disponible</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="form-container">
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+    
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+    
+                    <label for="mesa">Mesa:</label>
+                    <select id="mesa" name="mesa" required>
+                        <option value="1">Mesa 1</option>
+                        <option value="2">Mesa 2</option>
+                        <option value="3">Mesa 3</option>
+                        <option value="4">Mesa 4</option>
+                        <option value="5">Mesa 5</option>
+                        <option value="6">Mesa 6</option>
+                        <option value="7">Mesa 7</option>
+                        <option value="8">Mesa 8</option>
+                    </select>
+    
+                    <button type="submit">Reservar</button>
+                </form>
+            </div>
+</div>
+<h1><a  class="pepe" href="#top">ARRIBA</a></h1>
+<center><h1><a class="toro" href="Index.html">REGRESAR MENU PRINCIPAL</a></h1><div id="ubicacion">
+    <h2>Ubicación</h2>
+    <p>Estamos ubicados en la Calle Principal 123, Mérida, Yucatán.</p>
+</div>
+
+<div id="footer">
+    <p>© 2024 Restaurante La Buena Mesa</p>
+</div></center>
+        
+    </body>
+    </html>
